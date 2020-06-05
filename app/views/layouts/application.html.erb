@@ -13,8 +13,14 @@
 
   <body>
     <%= render 'layouts/navbar' %>
+
+    <div class="ui container">
+      <%= render 'layouts/messages' %>
+    </div>
+
     <div class="ui container">
       <%= yield %>
     </div>
+
   </body>
 </html>
